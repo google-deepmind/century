@@ -1,29 +1,29 @@
-# historical_image_benchmark
+# Historical Image Benchmark.
 
-TODO(b/338063024): Add a description for your new project, explain what is
-being released here, etc... Additional, the following sections are normally
-expected for all releases. Feel free to add additional sections if appropriate
-for your project.
+This benchmark aims to help understand the ability of large models
+ to reason and critically discuss historically sensitive and complex imagery.
+
+The benchmark was curated from a publicly available dataset of Wikipedia images
+  [Wikipedia-based Image Text](https://github.com/google-research-datasets/wit)
+ (a publicly available wikipedia images dataset). We
+ develop a process to:
+ - curate historically significant search terms of events, figures, and locations
+ - apply additional filtering steps for quality and validation reasons.
+ - collect human annotations for each image, where annotators conduct research
+ and provide a short description of the historical context necessary to
+ understand the central event, figure, or location in the image.
 
 ## Installation
 
-Write instructions for how the user should install your code. The instructions
-should ideally be valid when copy-pasted. You can combine this with the Usage
-section if there's no separate installation step.
-
-## Usage
-
-Write example usage of your code. The instructions should ideally be valid when
-copy-pasted, and will be used by your technical reviewer to verify that your
-package functions correctly.
+The data can be downloaded from our [Cloud bitbucket](ToDo).
 
 ## Citing this work
 
-Add citation details here, usually a pastable BibTeX snippet:
+To cite this work, use:
 
 ```latex
-@article{publicationname,
-      title={Publication Name},
+@article{Akbulut24,
+      title={TBD},
       author={Author One and Author Two and Author Three},
       year={2024},
 }
